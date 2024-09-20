@@ -1,0 +1,32 @@
+{
+    "name": "firebaseChatApp",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "react-native start",
+        "android": "react-native run-android",
+        "ios": "react-native run-ios",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@react-native-firebase/app": "^16.4.6",
+        "@react-native-firebase/auth": "^16.4.6",
+        "@react-native-firebase/firestore": "^16.4.6",
+        "react-native": "0.72.0",
+        "react": "18.2.0",
+        "react-native-gifted-chat": "^0.16.3",
+        "react-native-vector-icons": "^9.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.21.0",
+        "@babel/runtime": "^7.21.0",
+        "@react-native-community/eslint-config": "^3.0.3",
+        "eslint": "^8.10.0",
+        "jest": "^28.1.0",
+        "metro-react-native-babel-preset": "^0.72.0",
+        "react-test-renderer": "18.2.0"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
+}
